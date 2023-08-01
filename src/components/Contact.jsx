@@ -4,10 +4,12 @@ import { useState } from "react"
 const Contact = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
-    const [phoneNumber, setPhoneNumber] = useState()
+    const [phoneNumber, setPhoneNumber] = useState('')
     const submitHandler = (submit) => {
         submit.preventDefault();
-        alert(`Your Name: ${name} Your Email: ${email} Your Phone Number: ${phoneNumber}`)
+        alert(`Your Name: ${name} 
+        Your Email: ${email} 
+        Your Phone Number: ${phoneNumber}`)
     }
     return (
         <>

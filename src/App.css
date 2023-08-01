@@ -8,5 +8,9 @@ form {
 
 #contacts:hover {
     background-color: cadetblue;
-    
+
+}
+#contacts {
+    text-align: center;
+    display: block;
 }
