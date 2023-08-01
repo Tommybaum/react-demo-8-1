@@ -1,0 +1,12 @@
+form {
+    background-color: aquamarine;
+    border: 10px solid black;
+    padding: 2em;
+    margin: 1em;
+
+}
+
+#contacts:hover {
+    background-color: cadetblue;
+    
+}
